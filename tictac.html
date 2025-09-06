@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyTicTacToc</title>
+  <link rel="stylesheet" href="tac.css">
+</head>
+<body>
+  <nav>
+    <div class="brand">Rana.com</div>
+  </nav>
+
+  <main class="gamecontainer">
+    <div class="shell">
+      <!-- Board -->
+      <section class="panel">
+        <div class="container">
+          <div class="box" data-index="0"><span class="boxtext"></span></div>
+          <div class="box" data-index="1"><span class="boxtext"></span></div>
+          <div class="box" data-index="2"><span class="boxtext"></span></div>
+          <div class="box" data-index="3"><span class="boxtext"></span></div>
+          <div class="box" data-index="4"><span class="boxtext"></span></div>
+          <div class="box" data-index="5"><span class="boxtext"></span></div>
+          <div class="box" data-index="6"><span class="boxtext"></span></div>
+          <div class="box" data-index="7"><span class="boxtext"></span></div>
+          <div class="box" data-index="8"><span class="boxtext"></span></div>
+        </div>
+      </section>
+
+      <!-- Info -->
+      <aside class="gameinfo panel">
+        <h1>Welcome to MyTicTacToc</h1>
+        <div class="status">
+          <div>Turn: <span id="turnLabel">X</span></div>
+          <button id="reset">Reset</button>
+        </div>
+        <div class="create">
+            <h5>create by RohanRana</h5>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <script src="toc.js"></script>
+</body>
+</html>
